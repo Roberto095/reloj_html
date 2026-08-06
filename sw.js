@@ -7,14 +7,17 @@
    Al cambiar index.html hay que subir el número de VERSION, si no
    los equipos que ya lo instalaron seguirán viendo la versión vieja. */
 
-const VERSION = 'reloj-v7';
+const VERSION = 'reloj-v13';
 
 const ARCHIVOS = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './fuentes/DSEG7Classic-Light.woff2',
+  './fuentes/DSEG7Classic-Regular.woff2',
+  './fuentes/DSEG7Classic-Bold.woff2'
 ];
 
 /* Instalación: descargar todo el shell de una vez. */
